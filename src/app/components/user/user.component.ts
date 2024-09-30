@@ -1,6 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { User } from '../../model/interface/user';
-import { UserService } from '../../../service/user.service';
+import { UserService } from '../../service/user.service';
 import { JsonPipe } from '@angular/common';
 import { AgGridAngular } from 'ag-grid-angular';
 import { ColDef, GridApi, GridReadyEvent, RowSelectionOptions } from 'ag-grid-community';
